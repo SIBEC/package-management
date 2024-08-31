@@ -37,6 +37,12 @@ sudo wget http://download.sonatype.com/nexus/3/nexus-3.15.2-01-unix.tar.gz
 sudo tar -zxvf nexus-3.15.2-01-unix.tar.gz
 sudo mv /opt/nexus-3.15.2-01 /opt/nexus
 sudo rm -rf nexus-3.15.2-01-unix.tar.gz
+
+### New Nexus version not tested
+## sudo wget https://download.sonatype.com/nexus/3/nexus-3.70.0-03-java8-unix.tar.gz
+## sudo tar -zxvf nexus-3.70.0-03-unix.tar.gz
+## sudo mv /opt/nexus-3.70.0-03 /opt/nexus
+## sudo rm -rf nexus-3.70.0-03-unix.tar.gz
 ```
 
 ## Grant permissions for nexus user to start and manage nexus service
